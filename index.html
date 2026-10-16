@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento Online | Ousare Revestimentos — Pisos Vinílicos e Laminados de Alto Padrão em Içara e Criciúma</title>
+    <meta name="description" content="Simulação em tempo real para piso vinílico e laminado nobre. Instalação com equipe própria especializada, até 10 anos de garantia e visita técnica em Içara, Criciúma e região.">
+
+    <!-- META PIXEL CONFIG EXTERNO -->
+    <script src="js/pixel.js"></script>
+
+    <!-- FONTES DE LUXO & ÍCONES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS DO TEMA & GLOBAL -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+
+    <!-- HEADER FLUTUANTE -->
+    <header>
+        <div class="container flex">
+            <a href="#" class="logo" title="Ousare Revestimentos">
+                <img src="assets/logo.png" alt="Ousare Revestimentos — Pisos Vinílicos e Laminados">
+            </a>
+            <a href="#" target="_blank" class="btn-zap-header" id="headerZapBtn" aria-label="WhatsApp Ousare" title="Falar no WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="hero-eyebrow">
+                <i class="fas fa-gem"></i> ESPECIALISTAS EM ALTO PADRÃO • IÇARA, CRICIÚMA E REGIÃO
+            </span>
+            <h1>PISO NOVO COM <br><span class="gold-gradient">SOFISTICAÇÃO & ALTO PADRÃO.</span></h1>
+            <p>Simule seu investimento em tempo real. Vinílicos nobres e laminados premium com mão de obra própria especializada e até 10 anos de garantia no Sul Catarinense.</p>
+
+            <!-- CALCULADORA DARK GOLD GLASS -->
+            <div class="calculator-box">
+                <div class="calc-header">
+                    <span class="calc-tag">SIMULAÇÃO INSTANTÂNEA</span>
+                    <h3>Configuração do Projeto</h3>
+                </div>
+
+                <div class="form-group">
+                    <label for="metragem"><i class="fas fa-ruler-combined"></i> Metragem Estimada (m²)</label>
+                    <div class="input-wrapper">
+                        <input type="number" id="metragem" placeholder="Ex: 85" min="1">
+                        <span class="input-suffix">m²</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="pisoAtual"><i class="fas fa-layer-group"></i> Piso Atual no Local</label>
+                    <div class="select-wrapper">
+                        <select id="pisoAtual">
+                            <!-- Populado dinamicamente via js/main.js -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="nivelamento"><i class="fas fa-water"></i> Nivelamento da Superfície</label>
+                    <div class="select-wrapper">
+                        <select id="nivelamento">
+                            <option value="Nao sei">Não sei informar (avaliar na visita técnica de cortesia)</option>
+                            <option value="Sim">Sim, base plana e regular</option>
+                            <option value="Não">Não, superfície irregular / necessita regularização</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="modelo"><i class="fas fa-award"></i> Linha de Piso Desejada</label>
+                    <div class="select-wrapper">
+                        <select id="modelo">
+                            <!-- Populado dinamicamente via js/main.js -->
+                        </select>
+                    </div>
+                </div>
+
+                <button class="btn-calc" onclick="calcular()">
+                    <span>GERAR PROPOSTA EXECUTIVA</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- BARRA DE MARCAS PARCEIRAS -->
+    <section class="brands-bar">
+        <div class="container">
+            <div class="brands-title">As Melhores Marcas Globais em Seu Projeto</div>
+            <div class="brands-list">
+                <span>TARKETT</span>
+                <span>•</span>
+                <span>DURAFLOOR</span>
+                <span>•</span>
+                <span>QUICK-STEP</span>
+                <span>•</span>
+                <span>RUFFINO</span>
+                <span>•</span>
+                <span>KAPAZI</span>
+                <span>•</span>
+                <span>STATO</span>
+                <span>•</span>
+                <span>ELIANE</span>
+                <span>•</span>
+                <span>ARQUITECH</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DIFERENCIAIS -->
+    <section class="features">
+        <div class="container">
+            <span class="features-tag">PADRÃO DE QUALIDADE & CONFIANÇA</span>
+            <h2>Por que escolher a <span class="gold-gradient">OUSARE</span>?</h2>
+
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Mão de Obra Própria</h3>
+                    <p>Instalação realizada 100% por equipe técnica interna. Mais de 10 anos de experiência com atenção aos mínimos detalhes e precisão milimétrica.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Garantia Dupla Exclusiva</h3>
+                    <p>Até 10 anos de garantia do produto pelos maiores fabricantes mundiais e 3 anos completos de garantia na instalação da Ousare.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Padrões Nobres & Chevron</h3>
+                    <p>Do clássico vinílico colado ao sofisticado SPC acústico e paginações nobres como Espinha de Peixe para ambientes contemporâneos.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3>Condições Facilitadas</h3>
+                    <p>Desconto exclusivo para pagamento à vista ou opções facilitadas de parcelamento direto no seu projeto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO ATENDIMENTO & REGIÕES -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-card">
+                <div class="about-info">
+                    <span class="features-tag" style="text-align: left;">ATENDIMENTO CONSULTIVO</span>
+                    <h3>Presença Forte em <span class="gold-gradient">Içara, Criciúma & Região</span></h3>
+                    <p>Com showroom dedicado e equipe técnica itinerante, levamos mostruários completos até a sua residência ou empresa para medição técnica e orientação arquitetônica sem custo.</p>
+                    
+                    <div class="cities-pills">
+                        <span class="city-pill">Içara</span>
+                        <span class="city-pill">Criciúma</span>
+                        <span class="city-pill">Forquilhinha</span>
+                        <span class="city-pill">Cocal do Sul</span>
+                        <span class="city-pill">Siderópolis</span>
+                        <span class="city-pill">Maracajá</span>
+                        <span class="city-pill">Urussanga</span>
+                        <span class="city-pill">Tubarão</span>
+                        <span class="city-pill">Laguna</span>
+                        <span class="city-pill">Imbituba</span>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">+10</div>
+                        <div class="stat-label">Anos de Experiência no Setor</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">3 Anos</div>
+                        <div class="stat-label">Garantia na Instalação</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">10 Anos</div>
+                        <div class="stat-label">Garantia no Produto</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Equipe Própria Especializada</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-row">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Ousare Revestimentos Logo">
+            </div>
+            <div class="footer-text">
+                &copy; Todos os direitos reservados. Ousare Revestimentos • CNPJ 47.599.826/0001-82 <span style="margin: 0 5px; opacity: 0.3;">|</span> Desenvolvido por Pixel Studio
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DE PROPOSTA EXECUTIVA -->
+    <div class="modal-overlay" id="modalResult">
+        <div class="modal-content">
+            <button class="close-modal" onclick="fecharModal()" aria-label="Fechar Proposta">&times;</button>
+
+            <div class="modal-header">
+                <h3>Proposta Estimada</h3>
+                <p class="modal-sub">Valores preliminares calculados para o seu projeto com tudo incluso</p>
+            </div>
+
+            <div class="price-card">
+                <div class="total-label">Investimento Estimado (Tudo Incluso)</div>
+                <div class="total-value" id="valorFinal">R$ 0,00</div>
+                <div class="installments-row">
+                    <i class="fas fa-tag"></i>
+                    <span>Condição especial com <strong>desconto à vista</strong> ou parcelado</span>
+                </div>
+            </div>
+
+            <div class="scope-box">
+                <div class="scope-title"><i class="fas fa-clipboard-check"></i> Especificação do Pacote:</div>
+                <div class="scope-text" id="modalSubtitle"></div>
+            </div>
+
+            <div class="bonus-section">
+                <div class="bonus-header">
+                    <span>SERVIÇOS E BENEFÍCIOS INCLUSOS</span>
+                    <span class="badge-pkg">PACOTE COMPLETO</span>
+                </div>
+                <div id="bonusListRenderer" class="bonus-grid"></div>
+            </div>
+
+            <a href="#" id="linkZap" class="btn-action" target="_parent">
+                <i class="fab fa-whatsapp"></i>
+                <span>CONFIRMAR ORÇAMENTO NO WHATSAPP</span>
+            </a>
+
+            <div class="modal-trust-footer">
+                <span><i class="fas fa-lock"></i> Sem compromisso</span>
+                <span>•</span>
+                <span><i class="fas fa-calendar-check"></i> Visita técnica de cortesia</span>
+                <span>•</span>
+                <span><i class="fas fa-bolt"></i> Resposta rápida</span>
+            </div>
+
+            <p class="disclaimer">
+                *Valores estimados com materiais e mão de obra inclusos. A confirmação técnica definitiva de metragem e condições da base será feita presencialmente por nossa equipe técnica.
+            </p>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

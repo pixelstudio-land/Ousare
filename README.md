@@ -2,7 +2,7 @@
 
 Cliente: **Ousare Revestimentos**  
 CNPJ: `47.599.826/0001-82`  
-WhatsApp: `+55 48 99198-6189` (link oficial: `whats.link/ousarerevestimentos`)  
+WhatsApp: `+55 48 9246-8739`  
 Região de Atendimento: Içara, Criciúma, Forquilhinha, Cocal do Sul, Siderópolis, Maracajá, Urussanga, Imbituba, Laguna, Tubarão e região sul catarinense  
 
 ## Produtos & Valores Cadastrados (Conforme Briefing Oficial)
@@ -14,7 +14,7 @@ Região de Atendimento: Içara, Criciúma, Forquilhinha, Cocal do Sul, Siderópo
 
 ## Garantias e Diferenciais
 - ✅ **10 anos de garantia do produto** (marcas mundiais: Tarkett, Durafloor, Quick-Step, Kapazi, Ruffino, Stato, Eliane, Arquitech)
-- ✅ **3 anos de garantia de instalação** com equipe 100% própria (sem terceirização)
+- ✅ **Mão de obra 100% própria especializada** (sem terceirização)
 - ✅ **+10 anos de experiência** no setor e loja/showroom físico
 - ✅ Visita técnica e medição presencial de cortesia
 - ✅ Desconto especial para pagamento à vista

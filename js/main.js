@@ -148,7 +148,7 @@ function calcular() {
             `🏠 *Condições do Local:*\n` +
             `- Piso Atual: ${pisoAtualNome}\n` +
             `- Nivelamento da Base: ${nivelamentoNome}\n\n` +
-            `🛡️ *Garantia Ousare:* 10 anos de produto | 3 anos de instalação com equipe própria.\n\n` +
+            `🛡️ *Garantia Ousare:* 10 anos de garantia no produto | Equipe 100% própria especializada.\n\n` +
             `Gostaria de receber o orçamento oficial e agendar a visita técnica de cortesia!`;
     } else {
         total = metragem * modeloPreco;
@@ -170,7 +170,7 @@ function calcular() {
             `🏠 *Condições do Local:*\n` +
             `- Piso Atual: ${pisoAtualNome}\n` +
             `- Nivelamento da Base: ${nivelamentoNome}\n\n` +
-            `🛡️ *Garantia Ousare:* 10 anos de produto | 3 anos de instalação com equipe própria.\n\n` +
+            `🛡️ *Garantia Ousare:* 10 anos de garantia no produto | Equipe 100% própria especializada.\n\n` +
             `Gostaria de confirmar essa condição e agendar a visita técnica de cortesia!`;
     }
 

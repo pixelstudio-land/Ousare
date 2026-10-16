@@ -9,8 +9,8 @@ const CONFIG = {
         nome1: "OUSARE",
         nome2: "REVESTIMENTOS",
         cidade: "Içara, Criciúma e Região — SC",
-        whatsapp: "5548991986189", // WhatsApp oficial verificado (whats.link/ousarerevestimentos)
-        telefoneExibicao: "(48) 99198-6189"
+        whatsapp: "554892468739", // WhatsApp oficial atualizado (+55 48 9246-8739)
+        telefoneExibicao: "(48) 9246-8739"
     },
 
     // 2. OPÇÕES DE PISOS E PREÇOS (CONFORME BRIEFING OFICIAL)
@@ -22,7 +22,7 @@ const CONFIG = {
             preco: 130.00,
             sobConsulta: false,
             // Incluso conforme briefing: R$ 130/m² materiais de instalação e mão de obra inclusos
-            descricao: "Pacote Completo: Piso Vinílico Nobre + Massa de Nivelamento/Regularização + Cola Especial + Mão de Obra Própria Especializada. Garantia de 10 anos do produto e 3 anos de instalação."
+            descricao: "Pacote Completo: Piso Vinílico Nobre + Massa de Nivelamento/Regularização + Cola Especial + Mão de Obra Própria Especializada. Garantia de 10 anos do produto."
         },
         {
             categoria: "Pisos Vinílicos de Alto Padrão",
@@ -44,7 +44,7 @@ const CONFIG = {
             preco: 110.00,
             sobConsulta: false,
             // Incluso conforme briefing: R$ 110/m² materiais de instalação e mão de obra inclusos
-            descricao: "Pacote Completo: Piso Laminado de Alta Resistência + Manta Térmica/Acústica + Perfis de Dilatação + Mão de Obra Própria Especializada. Garantia de 10 anos do produto e 3 anos de instalação."
+            descricao: "Pacote Completo: Piso Laminado de Alta Resistência + Manta Térmica/Acústica + Perfis de Dilatação + Mão de Obra Própria Especializada. Garantia de 10 anos do produto."
         },
         {
             categoria: "Pisos Laminados Premium",
@@ -67,7 +67,6 @@ const CONFIG = {
     // 4. BÔNUS E INCLUSÕES NO ORÇAMENTO (MODAL DE PROPOSTA EXECUTIVA)
     bonus: [
         { titulo: "Mão de Obra 100% Própria (+10 anos de experiência)", subtitulo: "INCLUSO", strike: "", gratis: true },
-        { titulo: "Garantia de 3 Anos na Instalação (Exclusivo Ousare)", subtitulo: "INCLUSO", strike: "", gratis: true },
         { titulo: "Garantia de 10 Anos no Produto (Fabricante)", subtitulo: "INCLUSO", strike: "", gratis: true },
         { titulo: "Massa de Regularização / Nivelamento (Pacote Vinílico)", subtitulo: "INCLUSO", strike: "", gratis: true },
         { titulo: "Cola Especial ou Manta Acústica (Conforme Linha)", subtitulo: "INCLUSO", strike: "", gratis: true },
